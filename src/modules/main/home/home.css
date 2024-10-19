@@ -1,0 +1,44 @@
+/* Home Section Styling */
+/*.home-section {
+    background-image: url(''); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 2rem;
+  }
+  
+  .home-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-section p {
+    font-size: 1.5rem;
+  } */
+  
+  /* Styling for the sections */
+  .section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .section:nth-child(even) {
+    background-color: #e2e2e2;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
